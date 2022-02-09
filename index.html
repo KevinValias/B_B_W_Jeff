@@ -51,7 +51,7 @@
               <img
                 src="images/philosophy.jpeg"
                 alt=""
-                style="padding-top: 160px"
+                style="padding-top: 100px;"
               />
             </div>
           </div>
@@ -81,7 +81,7 @@
               <img
                 class=""
                 src="images/services.jpeg"
-                style="padding-top: 160px"
+                style="padding-top: 20px"
                 alt=""
               />
             </div>
@@ -118,7 +118,7 @@
               <img
                 class=""
                 src="images/about me.jpeg"
-                style="padding-top: 10px"
+                style="padding-top: 10px; height:600px; object-fit: contain;"
                 alt=""
               />
             </div>
@@ -162,12 +162,12 @@
           </div>
           <div class="column">
             <div class="column-2">
-              <form id="my-form" action="https://script.google.com/macros/s/AKfycbzVO50zrkaSvj2QTVn1Zhz6W8aMy-YN82BgoovoFr8eJQ6EbMICQ04rn8QECpVzZDEK/exec">
+              <form id="my-form" method="post"  action="https://script.google.com/macros/s/AKfycbzVO50zrkaSvj2QTVn1Zhz6W8aMy-YN82BgoovoFr8eJQ6EbMICQ04rn8QECpVzZDEK/exec">
 									<fieldset class="form-padding">
                     <div class="mb-20">
                       <label for="date">Date:</label>
                       <input type="date" id="start" name="date" id="date"
-                        value="2018-07-22"
+                        value=""
                         min="2022-02-01" max="2030-12-31">
                     </div>
                     <br>
@@ -239,6 +239,12 @@
 </div>
       </footer>
     </main>
+
+    <!-- clear form after submission / NOT WORKING-->
+    <!-- <script>
+      document.getElementById("my-form").reset()
+    </script> -->
+    
 
     <!-- email modal -->
     <script>	

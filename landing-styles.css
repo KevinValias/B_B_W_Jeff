@@ -169,6 +169,7 @@ label {
   color: white;
 }
 .form-padding {
+  padding-top: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -188,7 +189,7 @@ label {
 }
 
 .row > .column {
-  height: 900px;
+  height: 700px;
   width: 1000px;
   padding: 100 60 90px;
 }
@@ -364,7 +365,7 @@ img.hover-shadow {
 #footer-back {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   transition: all 0.1s ease-out;
 }
