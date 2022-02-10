@@ -56,6 +56,8 @@ a:hover {
   color: #fff;
   padding: 10px 20px;
   margin: 0 5px;
+  text-decoration: none;
+  font-size: 15px;
 }
 .navbar ul {
   display: flex;
@@ -167,6 +169,7 @@ a:hover {
 }
 label {
   color: white;
+  font-size: 20px;
 }
 .form-padding {
   padding-top: 200px;

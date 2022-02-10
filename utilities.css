@@ -94,6 +94,7 @@
 .btn {
   background-color: rgb(33, 89, 255);
   color: white;
+  font-size: 15px;
 }
 .button {
   display: block;
