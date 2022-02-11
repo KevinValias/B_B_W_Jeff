@@ -156,6 +156,8 @@ a {
 .text {
   text-align: center;
   justify-content: center;
+  padding-top: 300px;
+  font-size: 36px;
 }
 .overlay {
   position: absolute;
