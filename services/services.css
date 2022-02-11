@@ -51,7 +51,7 @@ a {
   display: flex;
 }
 .navbar a:hover {
-  border-bottom: white 2px solid;
+  background-color: rgb(33, 89, 255);
 }
 /* Header */
 .landing-page {
