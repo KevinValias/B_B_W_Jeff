@@ -51,6 +51,7 @@ a:hover {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  z-index: 1;
 }
 .navbar a {
   color: #fff;
@@ -162,15 +163,18 @@ a:hover {
   color: white;
   font-size: 20px;
   margin-bottom: 11%;
+  z-index: -1;
 }
 .overlay {
   text-align: center;
   justify-content: center;
+  z-index: -1;
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+  z-index: -1;
 }
 
 /* post */
